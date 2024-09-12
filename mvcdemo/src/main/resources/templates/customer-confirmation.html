@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Confirmation</title>
+</head>
+<body>
+
+    <div style=" position: relative; display: flex; flex-direction: column; width: fit-content; ">
+            <div>
+                <span>
+                    <h3>
+                        First Name :
+                    </h3>
+                    <span th:text="${customer.firstName}">
+
+                    </span>
+                </span>
+                <span>
+                    <h3>
+                        Last Name :
+                    </h3>
+                    <span th:text="${customer.lastName}">
+                
+                    </span>
+                </span>
+                <span>
+                    <h3>
+                        Free Passes :
+                    </h3>
+                    <span th:text="${customer.freePasses}">
+                
+                    </span>
+                </span>
+                <span>
+                    <h3>
+                        Postal Code :
+                    </h3>
+                    <span th:text="${customer.postalCode}">
+                
+                    </span>
+                </span>
+                <span>
+                    <h3>
+                        Course Code :
+                    </h3>
+                    <span th:text="${customer.courseCode}">
+                
+                    </span>
+                </span>
+            </div>
+    </div>
+    
+</body>
+</html>
