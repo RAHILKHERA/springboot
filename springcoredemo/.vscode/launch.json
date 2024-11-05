@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringcoredemoApplication<springcoredemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rahil.springcoredemo.SpringcoredemoApplication",
+            "projectName": "springcoredemo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

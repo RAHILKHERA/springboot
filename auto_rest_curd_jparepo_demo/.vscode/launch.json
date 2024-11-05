@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-AutoRestCurdJparepoDemoApplication<auto_rest_curd_jparepo_demo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.auto_rest_curd_jparepo_demo.AutoRestCurdJparepoDemoApplication",
+      "projectName": "auto_rest_curd_jparepo_demo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

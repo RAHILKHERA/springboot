@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-RestdemoApplication<restdemo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.restdemo.RestdemoApplication",
+      "projectName": "restdemo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

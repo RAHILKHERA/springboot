@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-RestcurdjparepodemoApplication<restcurdjparepodemo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.restcurdjparepodemo.RestcurdjparepodemoApplication",
+      "projectName": "restcurdjparepodemo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

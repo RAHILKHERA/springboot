@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-RestcurddemoApplication<restcurddemo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.restcurddemo.RestcurddemoApplication",
+      "projectName": "restcurddemo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

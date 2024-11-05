@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PostgrescurddemoApplication<postgrescurddemo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.postgrescurddemo.PostgrescurddemoApplication",
+      "projectName": "postgrescurddemo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

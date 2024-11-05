@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoappApplication<demoapp>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.springboot.demo.demoapp.DemoappApplication",
+      "projectName": "demoapp",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-RestcurdjparepodemoApplication<restcurdjparepodemo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.restcurdjparepodemo.RestcurdjparepodemoApplication",
+      "projectName": "restcurdjparepodemo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=40655 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=restcurdjparepodemo"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-RestcurddemoApplication<restcurddemo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.restcurddemo.RestcurddemoApplication",
+      "projectName": "restcurddemo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-AutoRestCurdJparepoDemoApplication<auto_rest_curd_jparepo_demo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rahil.auto_rest_curd_jparepo_demo.AutoRestCurdJparepoDemoApplication",
+      "projectName": "auto_rest_curd_jparepo_demo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
